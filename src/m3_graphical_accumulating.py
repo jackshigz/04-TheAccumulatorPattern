@@ -95,6 +95,20 @@ def draw_parallel_lines(n, point, length, window):
       :type length: int
       :type window: rg.RoseWindow
     """
+
+    x = point.x
+    y = point.y
+
+    for _ in range(n):
+        point_start = rg.Point(x,y)
+        point_end = rg.Point(x+length,y)
+        line = rg.Line(point_start,point_end)
+        
+
+
+
+
+    window.render()
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Tests have been written for you (above).
