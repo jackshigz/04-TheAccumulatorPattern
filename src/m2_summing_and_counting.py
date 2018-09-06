@@ -222,6 +222,29 @@ def run_test_count_sines_vs_cosines():
     # Below this comment, add 5 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
+    # Test 2:
+    expected = 6
+    answer = count_sines_vs_cosines(5)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+
+    # Test 3:
+    expected = 4
+    answer = count_sines_vs_cosines(3)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    # Test 4:
+    expected = 1
+    answer = count_sines_vs_cosines(1)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
+    # Test 5:
+    expected = 0
+    answer = count_sines_vs_cosines(0)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
 
 def count_sines_vs_cosines(m):
     """
@@ -255,7 +278,7 @@ def count_sines_vs_cosines(m):
 
 
     # ------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # DONE: 7. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #
     # IMPORTANT: As in previous problems in this session,
